@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小蛮腰</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-09-25T02:15:14.854Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Mr.Han</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个小故事</title>
+    <link href="http://yoursite.com/2019/09/24/%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%95%85%E4%BA%8B/"/>
+    <id>http://yoursite.com/2019/09/24/一个小故事/</id>
+    <published>2019-09-24T08:42:39.000Z</published>
+    <updated>2019-09-25T02:15:14.854Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;​      你还记不记得咱俩小时候，那会儿不知道脏净，喜欢撒尿和泥玩，但总是我撒尿你和泥，你还不爱洗手，然后顿顿吃大白馒头，每次吃完饭你都要喝一大水舀子的水，有一次我问你为什么每次吃完饭你都要喝那么多水，你告诉我说，那馒头太咸了，齁得慌；&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="其它" scheme="http://yoursite.com/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="娱乐" scheme="http://yoursite.com/tags/%E5%A8%B1%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>my-first-blog</title>
+    <link href="http://yoursite.com/2019/09/24/my-first-blog/"/>
+    <id>http://yoursite.com/2019/09/24/my-first-blog/</id>
+    <published>2019-09-24T06:09:17.000Z</published>
+    <updated>2019-09-25T01:57:15.412Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;关于Oracle12514错误解决办法总结&quot;&gt;&lt;a href=&quot;#关于Oracle12514错误解决办法总结&quot; class=&quot;headerlink&quot; title=&quot;关于Oracle12514错误解决办法总结&quot;&gt;&lt;/a&gt;关于Oracle12514错误解决办法总结&lt;/h3&gt;&lt;p&gt;最近在安装Oracle时发生了一些不愉快的事情，就是我的Oracle在虚拟机上可以正常运行，但是用本机的plsql去连接Oracle时总会显示：&lt;br&gt;&lt;strong&gt;“ ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务”&lt;/strong&gt;，&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Oracle相关" scheme="http://yoursite.com/categories/Oracle%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/09/24/hello-world/"/>
+    <id>http://yoursite.com/2019/09/24/hello-world/</id>
+    <published>2019-09-24T03:28:19.059Z</published>
+    <updated>2019-09-25T01:50:47.134Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="其它" scheme="http://yoursite.com/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    
+  </entry>
+  
+</feed>

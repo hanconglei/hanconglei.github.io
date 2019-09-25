@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[一个小故事]]></title>
+    <url>%2F2019%2F09%2F24%2F%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%95%85%E4%BA%8B%2F</url>
+    <content type="text"><![CDATA[​ 你还记不记得咱俩小时候，那会儿不知道脏净，喜欢撒尿和泥玩，但总是我撒尿你和泥，你还不爱洗手，然后顿顿吃大白馒头，每次吃完饭你都要喝一大水舀子的水，有一次我问你为什么每次吃完饭你都要喝那么多水，你告诉我说，那馒头太咸了，齁得慌； ​ 还有一次，你家买了蜂蜜，但是你妈不让你多吃，怕长蛀牙，你说蜜蜂肚子里有蜂蜜，然后我们就一起出来抓蜜蜂，你刚抓到一个，你就在那喊，我说给我瞅一眼，你不给还怕我和你抢，你就一口吃了，其实我看见了，没敢告诉你，那个绿色的其实是苍蝇。]]></content>
+      <categories>
+        <category>其它</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>娱乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[my-first-blog]]></title>
+    <url>%2F2019%2F09%2F24%2Fmy-first-blog%2F</url>
+    <content type="text"><![CDATA[关于Oracle12514错误解决办法总结最近在安装Oracle时发生了一些不愉快的事情，就是我的Oracle在虚拟机上可以正常运行，但是用本机的plsql去连接Oracle时总会显示：“ ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务”， 这个问题绝大多数是因为listener.ora文件的配置问题，我的文件路径在/oracle/product/12.2.0/db_1/network/admin具体配置如下： 12345678910111213141516171819202122 (SID_LIST = (SID_DESC = (SID_NAME = CLRExtProc) (ORACLE_HOME =/oracle/product/12.2.0/db_1)//network上一级 (PROGRAM = extproc) ) (SID_DESC = (GLOBAL_DBNAME = HR)//这里是你的数据库名称 (ORACLE_HOME =/oracle/product/12.2.0/db_1) (SID_NAME = hr)//这里是你的sid，当初配置监听默认是orcl ) )LISTENER = (DESCRIPTION_LIST = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.32.130)(PORT = 1521)) //这里要注意host要使用本机的IP地址，不要使用127.0.0.1或者localhost (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521)) ) )这里还要注意括号的问题 ，当时犯的错就是因为括号多了一个，如果你的配置没有问题却还是出12514，就有可能是括号的问题，注意多检查 另一个需要注意的文件是在同一文件夹下的tnsnames.ora文件，配置如下 1234567891011(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.32.130)(PORT = 1521)) //同样要注意host是本机ip地址 ) (CONNECT_DATA = (SID = hr)//sid，当时设置的，默认orcl (SERVER = DEDICATED) (SERVICE_NAME = hr)//服务名，默认是orcl，和sid是一起设置的 )) 配置完之后需要重启Oracle的监听服务]]></content>
+      <categories>
+        <category>Oracle相关</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F09%2F24%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>其它</category>
+      </categories>
+  </entry>
+</search>
