@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hconglei.com/"/>
-  <updated>2019-09-26T08:46:23.094Z</updated>
+  <updated>2019-09-29T02:08:06.586Z</updated>
   <id>http://www.hconglei.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spring security</title>
+    <link href="http://www.hconglei.com/2019/09/29/spring-security/"/>
+    <id>http://www.hconglei.com/2019/09/29/spring-security/</id>
+    <published>2019-09-29T02:07:19.000Z</published>
+    <updated>2019-09-29T02:08:06.586Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="技术" scheme="http://www.hconglei.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>关于博客搭建</title>
