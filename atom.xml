@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hconglei.com/"/>
-  <updated>2019-10-12T01:24:24.198Z</updated>
+  <updated>2019-10-14T07:19:44.057Z</updated>
   <id>http://www.hconglei.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>maven jar包下载报错问题</title>
+    <link href="http://www.hconglei.com/2019/10/14/maven-jar%E5%8C%85%E4%B8%8B%E8%BD%BD%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/"/>
+    <id>http://www.hconglei.com/2019/10/14/maven-jar包下载报错问题/</id>
+    <published>2019-10-14T07:15:17.000Z</published>
+    <updated>2019-10-14T07:19:44.057Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;pom文件上不报错，jar包却没有的解决方式&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Java相关" scheme="http://www.hconglei.com/categories/Java%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="技术" scheme="http://www.hconglei.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Java知识点归纳</title>
